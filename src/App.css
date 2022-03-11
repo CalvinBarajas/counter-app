@@ -1,0 +1,19 @@
+body {
+  background-image: url("../public/img/bg.jpg");
+  box-sizing: border-box;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  border: 10px solid black;
+  border-radius: 15px;
+}
+
+span {
+  color: brown;
+}
+
+.container {
+  margin-top: 15vh;
+}
