@@ -4,16 +4,19 @@ body {
   color: black;
 }
 
-h1 {
+header {
   text-align: center;
   border: 10px solid black;
   border-radius: 15px;
+  font-size: 7rem;
+  padding-left: 1vw;
 }
 
 span {
   color: brown;
+  margin: 1vw;
 }
 
 .container {
-  margin-top: 15vh;
+  margin-top: 10vh;
 }

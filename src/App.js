@@ -33,33 +33,37 @@ const App = () => {
     <div className="container">
       <div className="row justify-content-md-center">
         <div className="col-md-auto m-5">
-          <h1>
+          <header>
             Current Count: <span>{count}</span>
-          </h1>
-          <Button
-            size="lg"
-            variant="primary"
-            className="button m-3"
-            onClick={() => handleIncrement()}
-          >
-            INCREMENT
-          </Button>
-          <Button
-            size="lg"
-            variant="success"
-            className="button m-3"
-            onClick={() => handleDecrement()}
-          >
-            DECREMENT
-          </Button>
-          <Button
-            size="lg"
-            variant="warning"
-            className="button m-3"
-            onClick={() => handleReset()}
-          >
-            RESET
-          </Button>
+          </header>
+          <div className="row justify-content-md-center">
+            <div className="col-md-auto m-5">
+              <Button
+                size="lg"
+                variant="primary"
+                className="button m-3"
+                onClick={() => handleIncrement()}
+              >
+                INCREMENT
+              </Button>
+              <Button
+                size="lg"
+                variant="success"
+                className="button m-3"
+                onClick={() => handleDecrement()}
+              >
+                DECREMENT
+              </Button>
+              <Button
+                size="lg"
+                variant="warning"
+                className="button m-3"
+                onClick={() => handleReset()}
+              >
+                RESET
+              </Button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
