@@ -3,6 +3,7 @@ import React from "react";
 import "./App.css";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css"; // react-bootstrap
+import Footer from "./Footer";
 
 // redux
 import { useSelector, useDispatch } from "react-redux";
@@ -64,6 +65,7 @@ const App = () => {
               </Button>
             </div>
           </div>
+          <Footer />
         </div>
       </div>
     </div>
